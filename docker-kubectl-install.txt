@@ -69,9 +69,9 @@ docker push akscr02sample.azurecr.io/bankapp:latest
 
 3. Deploy the project to kubernetes
 
-az aks get-credentials --resource-group AKS-Cluster-RG --name aks-cluster-pasupathikumar --overwrite=true
+az aks get-credentials --resource-group AKS-Cluster-RG --name aks-cluster-pasupathikumar
 
-kubectl create secret docker-registry acr-secret --docker-server=aksacr02sample.azurecr.io --docker-username=Pasupathikumar --docker-password=NewPassword1234 --docker-email=basharathahmed.md@c2stechs.com
+kubectl create secret docker-registry acr-secret-01 --docker-server=aksacr02sample.azurecr.io --docker-username=Pasupathikumar --docker-password=NewPassword1234 --docker-email=basharathahmed.md@c2stechs.com
 
 
 kubectl apply -f bankapp.yml
