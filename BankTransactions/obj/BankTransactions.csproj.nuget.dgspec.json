@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PasupathiKumarS\\Downloads\\Banking-Web-Prage-ASP\\BankTransactions\\BankTransactions.csproj": {}
+    "C:\\Users\\MohammedBasharathAhm\\Desktop\\Banking-Web-Page-ASP\\BankTransactions\\BankTransactions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PasupathiKumarS\\Downloads\\Banking-Web-Prage-ASP\\BankTransactions\\BankTransactions.csproj": {
+    "C:\\Users\\MohammedBasharathAhm\\Desktop\\Banking-Web-Page-ASP\\BankTransactions\\BankTransactions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PasupathiKumarS\\Downloads\\Banking-Web-Prage-ASP\\BankTransactions\\BankTransactions.csproj",
+        "projectUniqueName": "C:\\Users\\MohammedBasharathAhm\\Desktop\\Banking-Web-Page-ASP\\BankTransactions\\BankTransactions.csproj",
         "projectName": "BankTransactions",
-        "projectPath": "C:\\Users\\PasupathiKumarS\\Downloads\\Banking-Web-Prage-ASP\\BankTransactions\\BankTransactions.csproj",
-        "packagesPath": "C:\\Users\\PasupathiKumarS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PasupathiKumarS\\Downloads\\Banking-Web-Prage-ASP\\BankTransactions\\obj\\",
+        "projectPath": "C:\\Users\\MohammedBasharathAhm\\Desktop\\Banking-Web-Page-ASP\\BankTransactions\\BankTransactions.csproj",
+        "packagesPath": "C:\\Users\\MohammedBasharathAhm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MohammedBasharathAhm\\Desktop\\Banking-Web-Page-ASP\\BankTransactions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PasupathiKumarS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MohammedBasharathAhm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +25,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
