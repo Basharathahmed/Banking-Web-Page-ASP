@@ -59,7 +59,7 @@ docker build -t bankapp:latest .
 
 az login #Based on the requirement. 
 
-docker tag bankapp:latest akscr01sample.azurecr.io/bankapp:latest
+docker tag bankapp:latest akscr02sample.azurecr.io/bankapp:latest
 
 az acr login --name akscr02sample
 
@@ -69,7 +69,7 @@ docker push akscr02sample.azurecr.io/bankapp:latest
 
 3. Deploy the project to kubernetes
 
-az aks get-credentials --resource-group AKS-Cluster-RG --name aks-cluster-Basharath
+az aks get-credentials --resource-group ASP_Project_RG --name aks-cluster-Basharath
 
 kubectl create secret docker-registry acr-secret-01 --docker-server=aksacr02sample.azurecr.io --docker-username=Mohammed --docker-password=NewPassword1234 --docker-email=basharathahmed.md@c2stechs.com
 
