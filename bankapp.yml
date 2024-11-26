@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: banking-web-app-deployment
+  name: banking-web-app-deployment-01
 spec:
   replicas: 1
   selector:
@@ -30,7 +30,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: banking-web-app-service
+  name: banking-web-app-service-01
 spec:
   selector:
     app: banking-web-app
